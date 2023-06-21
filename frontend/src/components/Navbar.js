@@ -15,7 +15,7 @@ function Navbar() {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-blue-600 text-gray-100'>
         <div>
             <img src={Logo} alt="logo" style={{width:'60px'}}/>
         </div>
@@ -106,9 +106,9 @@ function Navbar() {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
-                    <a className="flex justify-between items-center w-full text-black" href='/'>
-                        Resume <HiOutlineDocumentText size={30}/>
-
+                    <a className="flex justify-between items-center w-full text-black" href='https://docs.google.com/document/d/1URbqbYSjOpeXyprhXmGMBE3-2MV_cRDMjNIyTjdR9uU/edit?usp=sharing'>
+                        Resume 
+                        <HiOutlineDocumentText size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#bebebe] '>

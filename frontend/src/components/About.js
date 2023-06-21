@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div name="about" className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name="about" className='w-full h-screen bg-gray-100 text-gray-700'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
@@ -12,11 +12,11 @@ function About() {
             </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi, I'm Kevin, please take a look around</p>
+                        <p>A Software Developer based in Clifton, New Jersey, USA.</p>
                     </div>
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt enim quis orci pharetra, ut laoreet felis facilisis. Fusce sed dignissim tellus. Quisque rutrum, magna laoreet bibendum egestas, velit massa aliquam eros, nec porta velit nisi eu dui. Vivamus aliquet, libero vel sagittis viverra, turpis ante mattis mauris, nec rhoncus lorem metus eget mi. Vivamus porta venenatis iaculis. Curabitur sollicitudin libero sit amet euismod efficitur. 
+                            With a background in marketing, sales, and entrepreneurship, I aspire to provide high-quality work that not only meets the project's needs but goes beyond expectations. <u className='font-bold'>I utilize my communication skills, adaptability, and drive to help businesses create impactful, reliable, and user-friendly applications that promote their best products to the world.</u> When I’m not coding, you can find me in a city near you riding my longboard 🛹 and playing guitar 🎸, not always at once.
                         </p>
 
                     </div>

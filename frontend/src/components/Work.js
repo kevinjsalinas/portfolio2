@@ -8,7 +8,7 @@ function Work() {
 
   return (
 
-    <div name="work" className='bg-[#0a192f] md:h-screen w-full text-white'>
+    <div name="work" className='bg-gray-100 md:h-screen w-full text-gray-700'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
@@ -23,7 +23,7 @@ function Work() {
                 {/* grid item */}
 
                 <div style={{backgroundImage: `url(${Project3})`}} 
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='shadow-lg shadow-amber-400 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white text-center'>
@@ -43,7 +43,7 @@ function Work() {
                     </div>
                 </div>
                 <div style={{backgroundImage: `url(${Project2})`}} 
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='shadow-lg shadow-amber-400 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
@@ -63,7 +63,7 @@ function Work() {
                     </div>
                 </div>
                 <div style={{backgroundImage: `url(${Project1})`}} 
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='shadow-lg shadow-amber-400 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
