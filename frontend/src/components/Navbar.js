@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail, HiOutlineDocumentText } from 'react-icons/hi'
-import { SiHackerrank } from "react-icons/si";
+// import { SiHackerrank } from "react-icons/si";
 import {Link} from 'react-scroll'
 
 
@@ -99,12 +99,12 @@ function Navbar() {
 
                     </a>
                 </li>
-                <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-[#70b48b]'>
+                {/* <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-300 bg-[#70b48b]'>
                     <a className="flex justify-between items-center w-full tex-gray-300" href='https://www.hackerrank.com/kevinjsalinas'>
                         HackerRank <SiHackerrank size={30}/>
 
                     </a>
-                </li>
+                </li> */}
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
                     <a className="flex justify-between items-center w-full text-black" href='https://docs.google.com/document/d/1URbqbYSjOpeXyprhXmGMBE3-2MV_cRDMjNIyTjdR9uU/edit?usp=sharing'>
                         Resume 
