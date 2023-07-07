@@ -13,7 +13,7 @@ const Home = () => {
 
       {/* Container */}
       <div className='px-8 flex flex-col md:flex-row items-center justify-center h-full'>
-        <div className='pr-12 pb-7'>
+        <div className='pr-12 pb-7 py-20'>
           <img src={profile} alt="kevin-pic" className='w-[250px] md:w-[300px] lg:w-[350px] place-items-center'/>
         </div>
         <div className='sm:text-left'>
