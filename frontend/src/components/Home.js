@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
 
-    <div name="home" className='w-full h-screen sm:h-[1000px] bg-blue-600'>
+    <div name="home" className='w-full h-screen sm:h-[900px] bg-blue-600'>
 
       {/* Container */}
       <div className='px-8 flex flex-col md:flex-row items-center justify-center h-full'>
@@ -17,7 +17,7 @@ const Home = () => {
           <img src={profile} alt="kevin-pic" className='w-[250px] md:w-[300px] lg:w-[350px] place-items-center'/>
         </div>
         <div className='sm:text-left'>
-          <p className='text-gray-100  pb-4'>HI THERE!, I'M</p>
+          <p className='text-gray-100  pb-4'>HI THERE, I'M</p>
           <h1 className='text-4xl sm:text-7xl font-bold text-gray-100 '>Kevin Salinas.</h1>
           <h2 className='text-4xl sm:text-7xl font-bold text-gray-100  '>I'm a <span className='text-amber-400 text-left'>software developer</span>.</h2>
           <p className='text-gray-100 py-4 max-w-[700px] '>Transforming ideas into tangible, real-world applications.</p>
