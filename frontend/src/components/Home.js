@@ -23,7 +23,7 @@ const Home = () => {
           <p className='text-gray-100 py-4 max-w-[700px] '>Transforming ideas into tangible, real-world applications.</p>
 
           <div>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work">
             <button className='text-amber-400 group border-2 px-6 py-3 my-2 flex items-center hover:border-amber-400'>
               View work
               <span className='group-hover:rotate-90 duration-300'>
