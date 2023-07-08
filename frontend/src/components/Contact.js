@@ -5,7 +5,7 @@ function Contact() {
 
   return (
  
-    <div name="contact" className='w-full h-screen bg-blue-600 flex justify-center items-center p-4 text-white'>
+    <section id="contact" className='w-full h-screen bg-blue-600 flex justify-center items-center p-4 text-white'>
         <form method="POST" action="https://getform.io/f/9159efe0-2d10-4274-b840-b597091ed4e6" className='flex flex-col max-w-[650px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-amber-400'>Contact</p>
@@ -18,7 +18,7 @@ function Contact() {
 
         </form>
       
-    </div>
+    </section>
   )
 }
 
