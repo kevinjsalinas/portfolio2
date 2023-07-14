@@ -3,9 +3,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import profile from '../assets/kevinsalinas-portfolio.png'
 import { Link } from 'react-scroll'
 
-
 const Home = () => {
-
 
   return (
 
